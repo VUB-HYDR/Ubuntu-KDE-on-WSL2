@@ -1,7 +1,7 @@
-screen mode id:i:2
+rdp_fc = """screen mode id:i:2
 use multimon:i:0
-desktopwidth:i:{desktop_width}
-desktopheight:i:{desktop_height}
+desktopwidth:i:1920
+desktopheight:i:1080
 session bpp:i:32
 winposstr:s:0,3,0,0,800,600
 compression:i:1
@@ -12,7 +12,7 @@ connection type:i:7
 networkautodetect:i:1
 bandwidthautodetect:i:1
 displayconnectionbar:i:0
-username:s:{username}
+username:s:{user_name}
 enableworkspacereconnect:i:0
 disable wallpaper:i:0
 allow font smoothing:i:0
@@ -45,3 +45,4 @@ gatewaybrokeringtype:i:0
 use redirection server name:i:0
 rdgiskdcproxy:i:0
 kdcproxyname:s:
+"""
