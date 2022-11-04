@@ -1,7 +1,8 @@
-
 '''
+This scripts installs Ubuntu KDE on WSL2
 
-
+You need to make sure that the latest kernel for WSL 2 is installed
+and that WSL is already 
 
 '''
 
