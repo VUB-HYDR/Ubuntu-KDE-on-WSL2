@@ -13,7 +13,7 @@ from data.rdp_file import rdp_fc
 dest = create_path("/wsl/ubuntu-22.04/image/")
 create_path("/wsl/ubuntu-22.04/instance/")
 
-url = 'https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64-wsl.rootfs.tar.gz'
+url = 'http://hydr.vub.be/assets/downloads/jammy-server-cloudimg-amd64-wsl.rootfs.tar.gz'
 
 obj = SmartDL(url, dest)
 obj.start()

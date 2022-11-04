@@ -1,3 +1,6 @@
 
 .gitignore
 readme.html
+data/packages.ind
+data/passcode.txt
+data/username.txt
